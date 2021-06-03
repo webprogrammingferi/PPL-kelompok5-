@@ -47,6 +47,11 @@ body {
 .navbar .navbar-brand  {
 	font-size: 30px;
 }
+.carousel-inner{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 /*Akhir Navbar*/
 
 /*Footer*/
