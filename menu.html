@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script src="https://kit.fontawesome.com/3a4b7465c5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	
 
     <title>D'Caffe Kekinian</title>
   </head>
@@ -17,15 +19,15 @@
   <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-          <h1 class="display-4"><span class="font-weight-bold">D'Caffe Kekinian</span></h1>
+          <h1 class="display-4"><span class="font-weight-bold">Halo Admin</span></h1>
           <hr>
-          <p class="lead font-weight-bold">"Enjoy and Choose your favorite Menu"<br> 
+          <p class="lead font-weight-bold">"Halaman Admin Input Menu"<br> 
         </div>
       </div>
   <!-- Akhir Jumbotron -->
 
   <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg"  style="background-color: #2BBBAD;">
+      <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container">
         <a class="navbar-brand text-dark" href="index.html"><strong>D'Caffe</strong>Kekinian</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link mr-4" href="index.html">HOME</a>
+              <a class="nav-link mr-4 text-dark" href="dashboard.html">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-4" href="menu.html">DAFTAR MENU</a>
+              <a class="nav-link mr-4 text-dark" href="input_promo.html">Input Promo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-4" href="pesanan.html">PESANAN</a>
+              <a class="nav-link mr-4 text-dark" href="menu.html">Input Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-4" href="#">LOGOUT</a>
+              <a class="nav-link mr-4 text-dark" href="pesanan.html">Pesanan</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link mr-4 text-dark" href="pesanan.html">Daftar Karyawan</a>
             </li>
           </ul>
         </div>
@@ -58,7 +63,7 @@
         <div class="row mt-3">
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/bakso.jpeg" class="card-img-top" alt="...">
+              <img src="img/bakso.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Bakso Urat</h5>
                <label class="card-text harga">Rp. 13.000</label><br>
@@ -70,7 +75,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/mieayam.jpg" class="card-img-top" alt="...">
+              <img src="img/mieayam.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Mie Ayam</h5>
                <label class="card-text">Rp. 13.000</label><br>
@@ -82,7 +87,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/nasgor.jpg" class="card-img-top" alt="...">
+              <img src="img/nasgor.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Nasi Goreng</h5>
                 <label class="card-text">Rp. 10.000</label><br>
@@ -94,7 +99,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/mieayambakso.jpg" class="card-img-top" alt="...">
+              <img src="img/mieayambakso.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Mie Ayam Bakso</h5>
                 <label class="card-text">Rp. 15.000</label><br>
@@ -108,7 +113,7 @@
          <div class="row mt-3">
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/lele.jpg" class="card-img-top" alt="...">
+              <img src="img/lele.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Lele Bakar</h5>
                 <label class="card-text">Rp. 12.000</label><br>
@@ -120,7 +125,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/tehobeng.jpg" class="card-img-top" alt="...">
+              <img src="img/tehobeng.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Teh Obeng</h5>
                 <label class="card-text">Rp. 5.000</label><br>
@@ -132,7 +137,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/juspukat.jpg" class="card-img-top" alt="...">
+              <img src="img/juspukat.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Jus Alpukat</h5>
                 <label class="card-text">Rp. 10.000</label><br>
@@ -144,7 +149,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/esjeruk.jpg" class="card-img-top" alt="...">
+              <img src="img/esjeruk.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Es Jeruk</h5>
                 <label class="card-text">Rp. 8.000</label><br>
@@ -158,7 +163,7 @@
          <div class="row mt-3 mb-5">
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/sanford.jpg" class="card-img-top" alt="...">
+              <img src="img/sanford.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Air Minum Sanford</h5>
                 <label class="card-text">Rp. 5.000</label><br>
@@ -170,7 +175,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark ">
-              <img src="images/nasi.jpeg" class="card-img-top" alt="...">
+              <img src="img/nasi.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Nasi Putih</h5>
                 <label class="card-text">Rp. 3.000</label><br>
@@ -182,7 +187,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/jusmangga.jpg" class="card-img-top" alt="...">
+              <img src="img/jusmangga.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Jus Mangga</h5>
                 <label class="card-text">Rp. 8.000</label><br>
@@ -194,7 +199,7 @@
 
           <div class="col-md-3">
             <div class="card border-dark">
-              <img src="images/ayambakar.jpg" class="card-img-top" alt="...">
+              <img src="img/ayambakar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title font-weight-bold">Ayam Bakar</h5>
                 <label class="card-text">Rp. 17.000</label><br>
@@ -204,31 +209,51 @@
             </div>
           </div>   
          </div> 
-      </div>
+      </div><br>
   <!-- Akhir Menu -->
 
   <!-- Awal Footer -->
-      <hr class="footer">
-      <div class="container">
-        <div class="row footer-body">
-          <div class="col-md-6">
-          <div class="copyright">
-            <strong>Copyright</strong> <i class="far fa-copyright"></i> 2021 -  Design BY PPL Kelompok 5</p>
-          </div>
-          </div>
-
-          <div class="col-md-6 d-flex justify-content-end">
-          <div class="icon-contact">
-          <label class="font-weight-bold">Follow Us </label>
-          <a href="#"><img src="images/icon/fb.png" class="mr-3 ml-4" data-toggle="tooltip" title="Facebook"></a>
-          <a href="#"><img src="images/icon/ig.png" class="mr-3" data-toggle="tooltip" title="Instagram"></a>
-          <a href="#"><img src="images/icon/twitter.png" class="" data-toggle="tooltip" title="Twitter"></a>
-            
-        </div>
-          </div>
-        </div>
-      </div>
+      <footer class="bg-dark text-white p-5">
+		<div class="row">
+			<div class="col-md-3">
+				<h5>LAYANAN PELANGGAN</h5>
+				<ul>
+					<li>Pusat Bantuan</li>
+					<li>Cara Pembelian</li>
+					<li>Pengiriman</li>
+					<li>Cara Pengembalian</li>
+				</ul>
+				</div>
+				<div class="col-md-3">
+				<h5>TENTANG KAMI</h5>
+				<p>D'Cafe Pugeran adalah Food and Baverage kekinian yang memudahkan anda untuk memesan makanan atau minuman secara online, Nah sangat mudahkan tanpa takut antri.</p>
+				</div>
+				<div class="col-md-3">
+				<h5>MITRA KERJA</h5>
+				<ul>
+					<li>GoFood</li>
+					<li>AntarAja</li>
+					<li>GrabFood</li>
+					<li>COD</li>
+				</ul>
+				</div>
+				<div class="col-md-3">
+				<h5>HUBUNGI KAMI</h5>
+				<ul>
+					<li>0887-9983-1234</li>
+					<li>Customer@D'cafepugeran</li>
+				</ul>
+				</div>
+				</div>
+				</footer>
+				<div class="copyright text-center text-dark font-weight-bold bg-warning p-2">
+					<p class="mt-2">Developed by Kelompok 5 ppl copyright <i class="far fa-copyright"></i> 2021</p>
+				</div>
   <!-- Akhir Footer -->
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
